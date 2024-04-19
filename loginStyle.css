@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    font-size: 10px;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100%;
+    background-image: url("https://th.bing.com/th/id/OIP.H598-s5jgeST2lZAe-_HUwHaEo?rs=1&pid=ImgDetMain");
+}
+#rec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    font-size: 10px;
+    width: 30vw;
+    height: 90vh;
+    background-size: 100%;
+    background-color: rgba(91, 133, 163, 0.461);
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    font-size: 20px;
+}
+h1 {
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+input{
+    border-radius: 30px;
+    box-sizing: border-box;
+    border: none;
+    padding-left: 15px;
+    width: 375px;
+    height: 50px;
+    margin-bottom: 15px ;
+    font-size: 17px;
+    background-color: rgba(255, 255, 255, 0.525);
+    outline: none; 
+}
+input:hover{
+    outline: 2px solid red;
+}
+input[type="checkbox"]
+{
+    margin: unset;
+}
+.login_under{
+    width: 360px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+#remember{
+    width: 16px;
+    height: 16px;
+}

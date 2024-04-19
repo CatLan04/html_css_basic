@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    font-size: 10px;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100%;
+    background-image: url("https://th.bing.com/th/id/OIP.H598-s5jgeST2lZAe-_HUwHaEo?rs=1&pid=ImgDetMain");
+}
+#rec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    font-size: 10px;
+    width: 30vw;
+    height: 95vh;
+    background-size: 100%;
+    background-color: rgba(91, 133, 163, 0.461);
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    font-size: 20px;
+}
+h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+input{
+    width: 375px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 15px ;
+    font-size: 20px;
+}
+input[type="radio"]{
+    margin-bottom: unset;
+}
+input[type="date"]{
+    font-size: 15px;
+}
+.register_under{
+    width: 375px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.a{
+    width: 375px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+}
+.b{
+    height: 50px;
+    align-items: center;
+    display: flex;
+}
+#date{
+    width: 110px;
+    height: 50px;
+    margin-bottom: unset;
+}
+.Gender{
+    width: 16px;
+    height: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
